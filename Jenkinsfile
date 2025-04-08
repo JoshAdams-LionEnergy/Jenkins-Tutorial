@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'set'
-                bat echo "hello from jenkinsfile"
+                bat 'echo "hello from jenkinsfile"'
             }
         }
     }
